@@ -12,12 +12,19 @@
            
         }
 
-        .container{
+        .container-1{
             display: flex;
             justify-content: center;
             justify-content: space-around;
             height: 600px;
             align-items: center;
+        }
+
+        .container-2{
+            display: flex;
+            justify-content: space-between;
+            height: 600px;
+            align-items: start;
         }
 
         .roboto-thin {
@@ -82,7 +89,46 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-1">
+        <div class="movie-card roboto-thin">
+            <img class="movie-img" src="./images/avengers.webp" alt="avengers">
+
+            <h3 class="movie-heading">Avengers:Endgame &nbsp; &nbsp; <span class="rating">8.8</span>/10 <h3>
+                    <p class="movie-info">LAST UPDATE <span class="time">RUNNING TIME</span></p>
+
+                    <p class="movie-desc"><b>SUN 8 SEPT-10:00PM<span class="duration">2HR 09MIN</b></span></p>
+        </div>
+
+        <div class="movie-card roboto-thin">
+            <img class="movie-img" src="./images/batman.webp" alt="batman">
+
+            <h3 class="movie-heading">The Batman <span class="rating b">7.8</span>/10 <h3>
+                    <p class="movie-info">LAST UPDATE <span class="time">RUNNING TIME</span></p>
+
+                    <p class="movie-desc"><b>TUE 4 MAY-05:00PM<span class="duration">2HR 13MIN</b></span></p>
+        </div>
+
+        <div class="movie-card roboto-thin">
+            <img class="movie-img" src="./images/wick.jpg" alt="john wick">
+
+            <h3 class="movie-heading">John Wick 3 <span class="rating b">9.8</span>/10 <h3>
+                    <p class="movie-info">LAST UPDATE <span class="time">RUNNING TIME</span></p>
+
+                    <p class="movie-desc"><b>WED 16 AUG-07:00PM<span class="duration">2HR 33MIN</b></span></p>
+        </div>
+
+        <div class="movie-card roboto-thin">
+            <img class="movie-img" src="./images/spiderman.jpg" alt="deadpool">
+
+            <h3 class="movie-heading">Spiderman:NWH<span class="rating s">8.2</span>/10 <h3>
+                    <p class="movie-info">LAST UPDATE <span class="time">RUNNING TIME</span></p>
+
+                    <p class="movie-desc"><b>MON 16 OCT-10:00PM<span class="duration">2HR 28MIN</b></span></p>
+        </div>
+   
+    </div>
+
+    <div class="container-2">
         <div class="movie-card roboto-thin">
             <img class="movie-img" src="./images/avengers.webp" alt="avengers">
 
